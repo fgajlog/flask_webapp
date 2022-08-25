@@ -18,7 +18,7 @@
               </ul>
           {% endif %}
       {% endwith %}
-      <h1>Faça seu login</h1>
+      <h1>Faça seu login para editar</h1>
       <form method="POST" action="{{ url_for('autenticar') }}">
           <input type="hidden" name="proxima" value="{{ proxima }}"
           <p><label>Nome de usuário:</label> <input class="form-control" type="text" name="usuario" required></p>
